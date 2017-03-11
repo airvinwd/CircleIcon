@@ -13,6 +13,8 @@
 		9C805BF41E73F6E300CE20D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C805BF21E73F6E300CE20D2 /* Main.storyboard */; };
 		9C805BF61E73F6E300CE20D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C805BF51E73F6E300CE20D2 /* Assets.xcassets */; };
 		9C805BF91E73F6E300CE20D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C805BF71E73F6E300CE20D2 /* LaunchScreen.storyboard */; };
+		9C805C021E73F72500CE20D2 /* CircleIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C805C011E73F72500CE20D2 /* CircleIconViewController.m */; };
+		9C805C051E73F74200CE20D2 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C805C041E73F74200CE20D2 /* CircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		9C805BF51E73F6E300CE20D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C805BF81E73F6E300CE20D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C805BFA1E73F6E300CE20D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C805C001E73F72500CE20D2 /* CircleIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleIconViewController.h; sourceTree = "<group>"; };
+		9C805C011E73F72500CE20D2 /* CircleIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleIconViewController.m; sourceTree = "<group>"; };
+		9C805C031E73F74200CE20D2 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		9C805C041E73F74200CE20D2 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		9C805BE81E73F6E300CE20D2 /* CircleIcon */ = {
 			isa = PBXGroup;
 			children = (
+				9C805C061E73F77500CE20D2 /* CicleIcon */,
 				9C805BEC1E73F6E300CE20D2 /* AppDelegate.h */,
 				9C805BED1E73F6E300CE20D2 /* AppDelegate.m */,
 				9C805BEF1E73F6E300CE20D2 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				9C805BEA1E73F6E300CE20D2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C805C061E73F77500CE20D2 /* CicleIcon */ = {
+			isa = PBXGroup;
+			children = (
+				9C805C001E73F72500CE20D2 /* CircleIconViewController.h */,
+				9C805C011E73F72500CE20D2 /* CircleIconViewController.m */,
+				9C805C031E73F74200CE20D2 /* CircleView.h */,
+				9C805C041E73F74200CE20D2 /* CircleView.m */,
+			);
+			name = CicleIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C805BF11E73F6E300CE20D2 /* ViewController.m in Sources */,
+				9C805C051E73F74200CE20D2 /* CircleView.m in Sources */,
 				9C805BEE1E73F6E300CE20D2 /* AppDelegate.m in Sources */,
 				9C805BEB1E73F6E300CE20D2 /* main.m in Sources */,
+				9C805C021E73F72500CE20D2 /* CircleIconViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
